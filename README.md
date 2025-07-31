@@ -1,9 +1,8 @@
 <div align="center">
   
-  <h1>👋 안녕하세요!</h1>
-  <p>도전과 협업을 즐기는 개발자 황동준입니다.</p>
+  <h1>👋 Hello!</h1>
+  <p>I'm Dongjun Hwang, a developer who enjoys challenges and collaboration.</p>
   
-
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white" />
   <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=SpringBoot&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
@@ -18,10 +17,10 @@
 
 ## 🙋‍♂️ About Me
 
-- 🌱 **성장**을 즐기는 웹 개발자
-- 🛠️ **문제 해결력**을 갖춘 백엔드 & 프론트엔드 풀스택 경험
-- 👨‍💻 사람들과 **함께 만드는 개발**을 좋아합니다
-- 💬 협업 도구: Trello, Notion, Git
+- 🌱 A web developer who loves **growth and learning**
+- 🛠️ Experienced in full-stack development with **problem-solving skills**
+- 👨‍💻 Enjoys **building things together** with people
+- 💬 Collaboration tools: Trello, Notion, Git
 
 ---
 
@@ -47,8 +46,8 @@
 ## 🧾 Contact
 
 - 📧 Email: nikihwangg@ivycomtech.com
-- 📘 Blog: [블로그 바로가기](https://nikihwangg.tistory.com/)  
-- 💼 Portfolio: [Notion 포트폴리오 링크](https://www.notion.so/226db2c782bb80f68617ed9ef0ff5991)
+- 📘 Blog: [Blog Link](https://nikihwangg.tistory.com/)  
+- 💼 Portfolio: [Notion Link](https://www.notion.so/226db2c782bb80f68617ed9ef0ff5991)
 
 ---
 
