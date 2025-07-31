@@ -1,10 +1,5 @@
 <div align="center">
 
-  <h1>✨ Welcome to My GitHub ✨</h1>
-  <p style="font-size:16px;">꾸준히 성장하는 개발자 황도현입니다 😎</p>
-
-  <br>
-
   <!-- Contact Section -->
   <h2>📬 Contact Me</h2>
 
