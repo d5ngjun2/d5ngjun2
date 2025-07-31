@@ -3,7 +3,6 @@
   <h1>👋 안녕하세요!</h1>
   <p>도전과 협업을 즐기는 개발자 황동준입니다.</p>
   
-  <br />
 
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white" />
   <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=SpringBoot&logoColor=white" />
