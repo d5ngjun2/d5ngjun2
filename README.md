@@ -1,25 +1,6 @@
 <div align="center">
-  
-  <h1>👋 Hello!</h1>
-  <p>I'm Dongjun Hwang, a developer who enjoys challenges and collaboration.</p>
-  
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white" />
-  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=SpringBoot&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=black" />
 
-</div>
 
----
-
-## 🙋‍♂️ About Me
-
-- 🌱 A web developer who loves **growth and learning**
-- 🛠️ Experienced in full-stack development with **problem-solving skills**
-- 👨‍💻 Enjoys **building things together** with people
-
----
 
 ## ⚡ Tech Stack
 
