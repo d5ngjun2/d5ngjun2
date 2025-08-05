@@ -24,7 +24,7 @@
 
 ---
 
-## 🧾 Contact
+## <h1>🧾 Contact</h1>
 
 - 📧 Email: nikihwangg@ivycomtech.com
 - 📘 Blog: [Blog Link](https://nikihwangg.tistory.com/)  
@@ -32,7 +32,7 @@
 
 ---
 
-### 📊 GitHub Stats
+### <h1>📊 GitHub Stats</h1>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=d5ngjun2&show_icons=true&theme=tokyonight&hide_border=true" height="170">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=d5ngjun2&layout=compact&theme=tokyonight&hide_border=true" height="170">
