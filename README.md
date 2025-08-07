@@ -3,7 +3,7 @@
 
 
 ### <h1>⚡Tech Stack</h1>
----
+
 ### 💻 Language & Framework
 - **Frontend**: <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black" />
@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/VS Code-007ACC?style=for-the-badge&logo=VisualStudioCode&logoColor=white" />
   <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=for-the-badge&logo=IntelliJIDEA&logoColor=white" />
 
----
+
 
 ## <h1>🧾 Contact</h1>
 
@@ -30,7 +30,7 @@
 - 📘 Blog: [Blog Link](https://nikihwangg.tistory.com/)  
 - 💼 Portfolio: [Notion Link](https://www.notion.so/226db2c782bb80f68617ed9ef0ff5991)
 
----
+
 
 ### <h1>📊 GitHub Stats</h1>
 <p align="center">
