@@ -26,16 +26,17 @@
 
 <p align="center">
   <!-- 메인 Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=d5ngjun2&show_icons=true&hide_border=false&border_color=888888&bg_color=ffffff&title_color=555555&text_color=666666&icon_color=777777&border_radius=15&custom_title=%20My%20GitHub%20Stats" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api?username=d5ngjun2&show_icons=true&hide_border=false&border_color=1e90ff&bg_color=ffffff&title_color=1e3c72&text_color=2a52be&icon_color=1e90ff&border_radius=15&custom_title=%20My%20GitHub%20Stats" height="170" />
 
   <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=d5ngjun2&layout=compact&hide_border=false&border_color=888888&bg_color=ffffff&title_color=555555&text_color=666666&border_radius=15" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=d5ngjun2&layout=compact&hide_border=false&border_color=1e90ff&bg_color=ffffff&title_color=1e3c72&text_color=2a52be&border_radius=15" height="170" />
 </p>
 
 <!-- Streak Stats -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=d5ngjun2&theme=default&hide_border=false&border_color=888888&background=ffffff&stroke=666666&ring=777777&fire=999999&currStreakLabel=555555&sideNums=555555&currStreakNum=777777&sideLabels=666666&dates=888888&border_radius=15" height="170" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=d5ngjun2&theme=default&hide_border=false&border_color=1e90ff&background=ffffff&stroke=2a52be&ring=1e90ff&fire=104e8b&currStreakLabel=1e3c72&sideNums=1e3c72&currStreakNum=104e8b&sideLabels=2a52be&dates=4682b4&border_radius=15" height="170" />
 </p>
+
 
 
 
