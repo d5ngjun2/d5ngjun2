@@ -1,10 +1,4 @@
-<div align="center">
-
-
-
-### <h1>⚡Tech Stack</h1>
-
-### 💻 Language & Framework
+## <p> ⚡Tech Stack </p>
 - **Frontend**: <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white" />
@@ -24,16 +18,27 @@
 
 
 
-## <h1>🧾 Contact</h1>
+## <p>🧾 Contact</p>
 
 - 📧 Email: nikihwangg@ivycomtech.com
 - 📘 Blog: [Blog Link](https://nikihwangg.tistory.com/)  
 - 💼 Portfolio: [Notion Link](https://www.notion.so/226db2c782bb80f68617ed9ef0ff5991)
 
-
-
-### <h1>📊 GitHub Stats</h1>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=d5ngjun2&show_icons=true&theme=tokyonight&hide_border=true" height="170">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=d5ngjun2&layout=compact&theme=tokyonight&hide_border=true" height="170">
+  <!-- 메인 Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=d5ngjun2&show_icons=true&hide_border=false&border_color=888888&bg_color=ffffff&title_color=555555&text_color=666666&icon_color=777777&border_radius=15&custom_title=%20My%20GitHub%20Stats" height="170" />
+
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=d5ngjun2&layout=compact&hide_border=false&border_color=888888&bg_color=ffffff&title_color=555555&text_color=666666&border_radius=15" height="170" />
 </p>
+
+<!-- Streak Stats -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=d5ngjun2&theme=default&hide_border=false&border_color=888888&background=ffffff&stroke=666666&ring=777777&fire=999999&currStreakLabel=555555&sideNums=555555&currStreakNum=777777&sideLabels=666666&dates=888888&border_radius=15" height="170" />
+</p>
+
+
+
+
+
+
