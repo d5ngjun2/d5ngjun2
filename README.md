@@ -20,9 +20,9 @@
 
 ## <p>🧾 Contact</p>
 
-- 📧 Email: nikihwangg@ivycomtech.com
-- 📘 Blog: [tstory](https://nikihwangg.tistory.com/)  
-- 💼 Portfolio: [Notion](https://www.notion.so/226db2c782bb80f68617ed9ef0ff5991)
+- 📧 Email : nikihwangg@ivycomtech.com
+- 📘 Blog : [tstory](https://nikihwangg.tistory.com/)  
+- 💼 Portfolio : [Notion](https://www.notion.so/226db2c782bb80f68617ed9ef0ff5991)
 
 <p align="center">
   <!-- 메인 Stats -->
