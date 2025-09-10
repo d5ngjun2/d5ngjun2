@@ -43,7 +43,3 @@ I'm currently focused on leveraging the power of **Spring Boot** and **React** t
   <img src="https://github-readme-stats.vercel.app/api?username=d5ngjun2&show_icons=true&hide_border=false&border_color=1e90ff&bg_color=ffffff&title_color=1e3c72&text_color=2a52be&icon_color=1e90ff&border_radius=15&custom_title=%20My%20GitHub%20Stats" height="170" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=d5ngjun2&layout=compact&hide_border=false&border_color=1e90ff&bg_color=ffffff&title_color=1e3c72&text_color=2a52be&border_radius=15" height="170" />
 </p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=d5ngjun2&theme=default&hide_border=false&border_color=1e90ff&background=ffffff&stroke=2a52be&ring=1e90ff&fire=104e8b&currStreakLabel=1e3c72&sideNums=1e3c72&currStreakNum=104e8b&sideLabels=2a52be&dates=4682b4&border_radius=15" height="170" />
-</p>
