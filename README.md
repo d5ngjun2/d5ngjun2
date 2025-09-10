@@ -39,6 +39,11 @@ I'm currently focused on leveraging the power of **Spring Boot** and **React** t
 
 ---
 
+### 📝 Latest Blog Posts
+- Loading latest posts...
+
+---
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=d5ngjun2&show_icons=true&hide_border=false&border_color=1e90ff&bg_color=ffffff&title_color=1e3c72&text_color=2a52be&icon_color=1e90ff&border_radius=15&custom_title=%20My%20GitHub%20Stats" height="170" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=d5ngjun2&layout=compact&hide_border=false&border_color=1e90ff&bg_color=ffffff&title_color=1e3c72&text_color=2a52be&border_radius=15" height="170" />
