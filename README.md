@@ -1,6 +1,7 @@
 ### 👋 Hi, I'm Dong-Jun Hwang!
 
-A developer specializing in building full-stack applications with a passion for clean code and effective solutions. I'm currently focused on leveraging the power of **Spring Boot** and **React** to create robust and user-friendly web services.
+A developer specializing in building full-stack applications with a passion for clean code and effective solutions. 
+I'm currently focused on leveraging the power of **Spring Boot** and **React** to create robust and user-friendly web services.
 
 ---
 
@@ -36,13 +37,6 @@ A developer specializing in building full-stack applications with a passion for 
 * 📖 **My Dev Blog**: [Read my thoughts on technology and development](https://nikihwangg.tistory.com/)
 * 💼 **My Portfolio**: [Explore my projects and skills](https://www.notion.so/226db2c782bb80f68617ed9ef0ff5991)
 
----
-
----
-
-### ✍️ Latest Blog Posts
-<!-- BLOG_START -->
-<!-- BLOG_END -->
 ---
 
 <p align="center">
