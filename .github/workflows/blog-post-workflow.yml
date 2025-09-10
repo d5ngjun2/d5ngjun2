@@ -1,4 +1,4 @@
-name: Latest Tistory Blog Post
+name: Update README with Latest Blog Posts
 
 on:
   schedule:
@@ -6,23 +6,44 @@ on:
   workflow_dispatch:      # 수동 실행 가능
 
 jobs:
-  update-readme-with-blog:
-    name: Update README with latest blog posts
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Fetch latest blog posts (via rss2json)
+        id: fetch_blog
+        run: |
+          curl -s "https://api.rss2json.com/v1/api.json?rss_url=https://nikihwangg.tistory.com/rss" > blog.json
+          echo "Blog JSON saved"
+
+      - name: Extract latest 5 posts
+        id: extract_posts
+        run: |
+          POSTS=$(jq -r '.items[:5] | .[] | "- [\(.title)](\(.link)) <br> <small>\(.pubDate | sub("T";" ") | sub("\\+0900";""))</small>"' blog.json)
+          echo "$POSTS" > posts.md
+          echo "posts<<EOF" >> $GITHUB_OUTPUT
+          cat posts.md >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
       - name: Update README with latest blog posts
-        uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          feed_list: 'https://nikihwangg.tistory.com/rss'
-          max_post_count: 5
-          template: '- [$title]($url) <br> <small>$date</small>'
-          date_format: 'YYYY년 MM월 DD일'
-          readme_path: 'README.md'
-          user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
-          commit_message: 'Update README with latest blog posts'
-          committer_username: 'd5ngjun2'
-          committer_email: 'nikihwangg@ivycomtech.com'
+        run: |
+          START="<!-- BLOG_START -->"
+          END="<!-- BLOG_END -->"
+          POSTS="$(cat posts.md)"
+          awk -v start="$START" -v end="$END" -v posts="$POSTS" '
+            $0 ~ start {print; print posts; flag=1; next}
+            $0 ~ end {flag=0}
+            !flag {print}
+          ' README.md > README.tmp
+          mv README.tmp README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "d5ngjun2"
+          git config user.email "nikihwangg@ivycomtech.com"
+          git add README.md
+          git commit -m "Update README with latest blog posts" || echo "No changes to commit"
+          git push
