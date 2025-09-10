@@ -2,19 +2,27 @@ name: Latest Tistory Blog Post
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch: 
+    - cron: '0 0 * * *'   # 매일 자정 실행
+  workflow_dispatch:      # 수동 실행 가능
 
 jobs:
   update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+    name: Update README with latest blog posts
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update README with latest blog posts
+        uses: gautamkrishnar/blog-post-workflow@master
         with:
           feed_list: 'https://nikihwangg.tistory.com/rss'
-          max_post_count: '5'
+          max_post_count: 5
           template: '- [$title]($url) <br> <small>$date</small>'
           date_format: 'YYYY년 MM월 DD일'
+          readme_path: 'README.md'
           user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
+          commit_message: 'Update README with latest blog posts'
+          committer_username: 'd5ngjun2'
+          committer_email: 'nikihwangg@ivycomtech.com'
