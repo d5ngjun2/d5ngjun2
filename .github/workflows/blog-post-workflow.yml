@@ -1,0 +1,18 @@
+name: Latest Tistory Blog Post
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 매일 00시 00분에 실행
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_url: 'https://nikihwangg.tistory.com/rss'
+          max_post_count: '5'
+          template: '- [$title]($url) <br> <small>$date</small>'
+          date_format: 'YYYY년 MM월 DD일'
