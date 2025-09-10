@@ -1,6 +1,6 @@
 ### 👋 Hi, I'm Dong-Jun Hwang!
 
-A developer specializing in building full-stack applications with a passion for clean code and effective solutions. 
+A developer specializing in building full-stack applications with a passion for clean code and effective solutions. <br/>
 I'm currently focused on leveraging the power of **Spring Boot** and **React** to create robust and user-friendly web services.
 
 ---
