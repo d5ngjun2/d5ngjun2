@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_url: 'https://nikihwangg.tistory.com/rss'
+          feed_list: 'https://nikihwangg.tistory.com/rss'
           max_post_count: '5'
           template: '- [$title]($url) <br> <small>$date</small>'
           date_format: 'YYYY년 MM월 DD일'
