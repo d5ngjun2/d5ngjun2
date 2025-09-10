@@ -1,8 +1,6 @@
 name: Update README with Latest Blog Posts
 
 on:
-  schedule:
-    - cron: '0 0 * * *'   # 매일 자정
   workflow_dispatch:
 
 jobs:
@@ -12,8 +10,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          persist-credentials: true  # GITHUB_TOKEN 사용
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -27,5 +23,3 @@ jobs:
 
       - name: Update README
         run: python update_readme.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
