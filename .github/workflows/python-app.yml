@@ -47,6 +47,10 @@ if start_tag in content and end_tag in content:
 subprocess.run(["git", "config", "user.name", "GitHub Actions"])
 subprocess.run(["git", "config", "user.email", "actions@github.com"])
 subprocess.run(["git", "add", README_PATH])
-# 변경사항 없으면 commit 실패 방지
-subprocess.run(["git", "commit", "-m", "Update README with latest blog posts"], stderr=subprocess.DEVNULL)
-subprocess.run(["git", "push"])
+subprocess.run(
+    ["git", "commit", "-m", "Update README with latest blog posts", "--allow-empty"],
+    stderr=subprocess.DEVNULL
+)
+subprocess.run(["git", "pull", "--rebase"], check=False)
+subprocess.run(["git", "push"], check=False)
+
