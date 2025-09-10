@@ -41,7 +41,8 @@ A developer specializing in building full-stack applications with a passion for 
 ---
 
 ### ✍️ Latest Blog Posts
-
+<!-- BLOG_START -->
+<!-- BLOG_END -->
 ---
 
 <p align="center">
