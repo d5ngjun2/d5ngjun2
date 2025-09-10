@@ -44,8 +44,8 @@ if start_tag in content and end_tag in content:
 # -----------------------------
 # Git 커밋 & 푸시
 # -----------------------------
-subprocess.run(["git", "config", "user.name", "GitHub Actions"])
-subprocess.run(["git", "config", "user.email", "actions@github.com"])
+subprocess.run(["git", "config", "nikihwangg", "GitHub Actions"])
+subprocess.run(["git", "config", "nikihwangg@naver.com", "nikihwangg@github.com"])
 subprocess.run(["git", "add", README_PATH])
 subprocess.run(
     ["git", "commit", "-m", "Update README with latest blog posts", "--allow-empty"],
