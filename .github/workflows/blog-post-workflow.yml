@@ -2,7 +2,7 @@ name: Latest Tistory Blog Post
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 매일 00시 00분에 실행
+    - cron: '0 0 * * *'
 
 jobs:
   update-readme-with-blog:
