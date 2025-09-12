@@ -2,8 +2,11 @@ name: Update Blog Posts
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 매시간 실행 (원하면 하루 1번으로 바꿀 수 있음)
+    - cron: '0 * * * *'  # 매시간
   workflow_dispatch:
+
+permissions:
+  contents: write   # ✅ 꼭 추가해야 함
 
 jobs:
   update-readme-with-blog:
