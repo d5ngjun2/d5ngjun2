@@ -24,7 +24,7 @@ Currently, I focus on using Spring Boot and React to develop robust and user-fri
 - 🗃️ **Oracle**
 - 🐘 **PostgreSQL**
 
-- **Cloud / DevOps**
+**Cloud / DevOps**
 - ☁️ **AWS**
 - ☁️ **Naver Cloud Platform**
 - ☸️ **Kubernetes**
