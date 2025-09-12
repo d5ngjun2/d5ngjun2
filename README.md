@@ -1,7 +1,7 @@
 ### 👋 Hi, I'm Dong-Jun Hwang!
 
-A developer specializing in building full-stack applications with a passion for clean code and effective solutions.  
-I'm currently focused on leveraging the power of **Spring Boot** and **React** to create robust and user-friendly web services.
+I am a developer who builds full-stack applications, and I am passionate about writing clean code and creating effective solutions.
+Currently, I focus on using Spring Boot and React to develop robust and user-friendly web services.
 
 ---
 
@@ -22,6 +22,12 @@ I'm currently focused on leveraging the power of **Spring Boot** and **React** t
 **Database**
 - 🗄️ **MySQL**
 - 🗃️ **Oracle**
+- 🐘 **PostgreSQL**
+
+- **Cloud / DevOps**
+- ☁️ **AWS**
+- ☁️ **Naver Cloud Platform**
+- ☸️ **Kubernetes**
 
 **Tools**
 - 🌐 **Git**
