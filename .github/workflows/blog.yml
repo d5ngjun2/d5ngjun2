@@ -2,7 +2,7 @@ name: Update Blog Posts
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 * * * *"     # 매시간
   workflow_dispatch:
 
 permissions:
@@ -13,10 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Update README with RSS feed
-        uses: matheusvanzan/rss-to-readme@v1
+
+      - name: Update README from RSS
+        uses: JasonEtco/rss-to-readme@v2
         with:
-          feed: "https://nikihwangg.tistory.com/rss"
-          readme: "./README.md"
-          heading: "### 📝 Latest Blog Posts"
+          feed-url: "https://nikihwangg.tistory.com/rss"
+          readme-section: "blog"             # README의 태그 이름 (예: <!--START_SECTION:blog-->)
+          path: "README.md"
           max: 5
