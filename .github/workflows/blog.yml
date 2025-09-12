@@ -1,0 +1,20 @@
+name: Update Blog Posts
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 매시간 실행 (원하면 하루 1번으로 바꿀 수 있음)
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Pull in Blog Posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://nikihwangg.tistory.com/rss"
+          max_post_count: 5
+          readme_path: "./README.md"
