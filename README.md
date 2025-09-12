@@ -40,9 +40,9 @@ I'm currently focused on leveraging the power of **Spring Boot** and **React** t
 ---
 
 ### 📝 Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->
+<!--START_SECTION:blog-->
 - Loading latest posts...
-<!-- BLOG-POST-LIST:END -->
+<!--END_SECTION:blog-->
 
 ---
 
