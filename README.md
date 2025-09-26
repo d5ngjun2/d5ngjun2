@@ -50,11 +50,11 @@
 ### 📝 Latest Blog Posts
 
 <!--START_SECTION:blog-->
+📝 [2025/09/26] - **[쿠버네티스 K8s](https://nikihwangg.tistory.com/151)**  <br/>
 📝 [2025/09/05] - **[디자인 패턴](https://nikihwangg.tistory.com/149)**  <br/>
 📝 [2025/08/28] - **[성능좋은 쿼리문을 작성하는 방법](https://nikihwangg.tistory.com/148)**  <br/>
 📝 [2025/08/25] - **[2025.08.25 개인 공부 트러블 슈팅](https://nikihwangg.tistory.com/147)**  <br/>
 📝 [2025/08/21] - **[2025.08.21 개인 공부 트러블 슈팅](https://nikihwangg.tistory.com/146)**  <br/>
-📝 [2025/08/20] - **[2025.08.20 개인 공부 트러블 슈팅](https://nikihwangg.tistory.com/145)**  <br/>
 <!--END_SECTION:blog-->
 
 ---
