@@ -1,32 +1,45 @@
 ### 🛠️ My Tech Stack
 
-**Frontend**
+# 🛠️ Tech Stack
+
+## 🖥 Infrastructure / DevOps
+- 🐧 **Linux** (CentOS / Ubuntu)
+- ☸️ **Kubernetes (K8s)**
+- 🚢 **Docker**
+- 🔄 **CI/CD** (GitHub Actions / Jenkins)
+- ☁️ **AWS** (EC2, S3, RDS, EKS)
+
+## 🧰 Monitoring / Logging
+- 📊 **Prometheus**
+- 📈 **Grafana**
+- 📜 **ELK Stack** (Elasticsearch, Logstash, Kibana)
+
+## 🛠 Backend
+- 🌿 **Spring Boot**
+- ☕ **Java**
+- 💾 **MyBatis**
+- ⚙️ **JPA**
+- 🐍 **Python**
+
+## 🎨 Frontend
 - ⚛️ **React**
 - 📝 **JavaScript**
 - 📄 **HTML5**
 - 🎨 **CSS3**
 
-**Backend**
-- 🌿 **Spring Boot**
-- ☕ **Java**
-- 💾 **MyBatis**
-- ⚙️ **JPA**
-
-**Database**
+## 🗄 Database
 - 🗄️ **MySQL**
 - 🗃️ **Oracle**
 - 🐘 **PostgreSQL**
 
-**Cloud / DevOps**
-- ☁️ **AWS**
-- ☁️ **Naver Cloud Platform**
-- ☸️ **Kubernetes**
-
-**Tools**
-- 🌐 **Git**
+## 🔨 Tools
+- 🌐 **Git / GitHub / GitLab**
 - 🚀 **Postman**
-- 💻 **VS Code**
+- 🖥 **VS Code**
 - 💡 **IntelliJ IDEA**
+- 🔧 **kubectl**
+- 📁 **SSH / SCP / SFTP**
+
 
 ---
 
