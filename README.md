@@ -1,5 +1,3 @@
-### 🛠️ My Tech Stack
-
 # 🛠️ Tech Stack
 
 ## 🖥 Infrastructure / DevOps
