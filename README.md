@@ -7,16 +7,9 @@
 - 🔄 **CI/CD** (GitHub Actions / Jenkins)
 - ☁️ **AWS** (EC2, S3, RDS, EKS)
 
-## 🧰 Monitoring / Logging
-- 📊 **Prometheus**
-- 📈 **Grafana**
-- 📜 **ELK Stack** (Elasticsearch, Logstash, Kibana)
-
 ## 🛠 Backend
 - 🌿 **Spring Boot**
 - ☕ **Java**
-- 💾 **MyBatis**
-- ⚙️ **JPA**
 - 🐍 **Python**
 
 ## 🎨 Frontend
