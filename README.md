@@ -1,10 +1,20 @@
+## 👋 About Me
+
+I am an engineer focused on infrastructure and data pipeline operations in Kubernetes environments.
+
+My main responsibilities include managing processes running on Kubernetes clusters, collecting operational data, and maintaining server infrastructure. I also handle incident response and system troubleshooting to ensure stable service operation.
+
+Additionally, I build data pipelines that parse collected data and stream it to Kafka for further processing and analysis.
+
+I enjoy working on scalable systems, automating infrastructure, and improving operational reliability.
+
 # 🛠️ Tech Stack
 
 ## 🖥 Infrastructure / DevOps
-- 🐧 **Linux** (CentOS / Ubuntu)
-- ☸️ **Kubernetes (K8s)**
+- 🐧 **Linux** (CentOS)
+- ☸️ **Kubernetes (K8s, eks)**
 - 🚢 **Docker**
-- 🔄 **CI/CD** (GitHub Actions / Jenkins)
+- 🔄 **CI/CD**
 - ☁️ **AWS** (EC2, S3, RDS, EKS)
 
 ## 🛠 Backend
@@ -22,16 +32,7 @@
 - 🗄️ **MySQL**
 - 🗃️ **Oracle**
 - 🐘 **PostgreSQL**
-
-## 🔨 Tools
-- 🌐 **Git / GitHub / GitLab**
-- 🚀 **Postman**
-- 🖥 **VS Code**
-- 💡 **IntelliJ IDEA**
-- 🔧 **kubectl**
-- 📁 **SSH / SCP / SFTP**
-
-
+- 
 ---
 
 ### 🔗 Connect with Me
