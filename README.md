@@ -32,7 +32,6 @@ I enjoy working on scalable systems, automating infrastructure, and improving op
 - 🗄️ **MySQL**
 - 🗃️ **Oracle**
 - 🐘 **PostgreSQL**
-- 
 ---
 
 ### 🔗 Connect with Me
